@@ -1058,7 +1058,7 @@ footer img {
 }
 
 
-@media (max-width: 1635px) and (min-width: 511px) {
+@media (max-width: 1635px) {
   .testbutton {
     top:40%;
     left: 50%;
@@ -1066,13 +1066,95 @@ footer img {
   }
 }
 
-@media (max-width: 510px) {
+/* @media (max-width: 1024px) {
+  .testbutton {
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} */
+
+
+@media (max-width: 768px) {
+  .testbutton {
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 414px) {
+  .testbutton {
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} 
+
+@media (max-width: 411px) {
+  .testbutton {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* iphone8 */
+@media only screen 
+      and (device-width: 375px)
+      and (device-height: 667px)
+      and (-webkit-device-pixel-ratio : 2) {
+        .testbutton {
+          top: 48%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+  }
+}
+
+/* ipad pro */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    .testbutton {
+      top: 22%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  /* ipad */
+
+  @media only screen 
+  and (device-width: 768px) 
+  and (device-height: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .testbutton {
+      top: 31%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+
+
+@media (max-width: 320px) {
+  .testbutton {
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+/* @media (max-width: 510px) {
   .testbutton {
     top:40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-}
+} */
 
 /* @media (max-width: 510px) and (min-width: 200px) {
   .testbutton {
